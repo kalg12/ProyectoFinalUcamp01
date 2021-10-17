@@ -3,10 +3,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
 }
 
 nav{
@@ -54,21 +56,50 @@ nav li a:hover {
     }
 }
 
-.main_header{
-    background-color: #ffffff;
+.header{
     height: 100vh;
     width: 100%;
-    
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(65,116,228,1) 48%, rgba(0,23,73,1) 93%);
+
+  position: relative;    
 }
 
-.header_section{
-    margin: 10px;
-    padding: 5px;
+.title_header{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 4rem;
 }
+
+.title_headersub{
+    position: absolute;
+    top: 42%;
+    left: 12%;
+    color: white;
+    font-size: 3rem;
+}
+
+.img_header{
+    width: 40%;
+    height: 60%;
+    background-image: url(/img/despacho_header.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 15%;
+    right: 0;
+  }
+
 
 nav div h1{
-    color: black;
-    font-size: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+     color: white;
+     font-size: 5rem;
 }
 
 .services{
