@@ -3,12 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-    min-height: 100vh;
 }
 
 nav{
@@ -55,9 +53,11 @@ nav li a:hover {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(65,116,228,1) 48%, rgba(0,23,73,1) 93%); 
   }
 
-.header{
+.main_header{
+    background-color: #ffffff;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(65,116,228,1) 48%, rgba(0,23,73,1) 93%);
     position: relative;    
@@ -81,12 +81,19 @@ nav li a:hover {
     flex: 1;
   }
 
+=======
+    
+}
+
+.header_section{
+    margin: 10px;
+    padding: 5px;
+}
+
+>>>>>>> parent of ca53f56 (header changes)
 nav div h1{
-    position: absolute;
-    top: 30%;
-    left: 20%;
-     color: white;
-     font-size: 5rem;
+    color: black;
+    font-size: 2rem;
 }
 
 .services{
