@@ -172,9 +172,9 @@ nav section p{
 }
 
 .cardone {
+    flex: 1;
     margin-top: 15px;
     display: flex;
-    width: 30%;
     box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
     text-align: center;
     border: 1px solid #eceff1;
@@ -183,31 +183,30 @@ nav section p{
   }
 
 .cardtwo {
-   margin-top: 15px;
-   display: flex;
-   width: 30%;
-   box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
-   text-align: center;
-   border: 1px solid #eceff1;
-   border-radius: 3px;
-   margin: 0 20px;
+    flex: 1;
+    margin-top: 15px;
+    display: flex;
+    box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
+    text-align: center;
+    border: 1px solid #eceff1;
+    border-radius: 3px;
+    margin: 0 20px;
   }
 
  .cardthree {
-   margin-top: 15px;
-   display: flex;
-   width: 30%;
-   box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
-   text-align: center;
-   border: 1px solid #eceff1;
-   border-radius: 3px;
-   margin: 0 20px;
+    flex: 1;
+    margin-top: 15px;
+    display: flex;
+    box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
+    text-align: center;
+    border: 1px solid #eceff1;
+    border-radius: 3px;
+    margin: 0 20px;
   }
 
 .img__card {
    width: 100%;
    height: 300px;
-   object-fit: cover;
   }
 
 .title__card {
@@ -248,5 +247,22 @@ footer{
     }
     .container__img {
     order: 2;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .cardone{
+        order: 1;
+        justify-content: space-between;
+    }
+
+    .cardtwo{
+        order: 2;
+    }
+
+    .cardthree{
+        order: 3;
     }
 }
