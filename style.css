@@ -131,9 +131,9 @@ form{
     border: 2px solid #0016b0;
 }
 
-/* SERVICES */
+/* EXPERIENCES */
 
-.services{
+.experience{
     background-color:#001749;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -155,13 +155,40 @@ nav section p{
     padding: 5px;
 }
 
-/* BEST OPTION */
+/* SERVICES */
 
-.best_option{
+.services{
     background-color:#ffffff;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+.services_text{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-top: 15px;
+    display: inline-block;
+    width: 29%;
+    box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
+    text-align: center;
+    border: 1px solid #eceff1;
+    border-radius: 3px;
+    margin: 0 20px;
+  }
+
+.img__card {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+.title__card {
+    margin: 15px 0;
+  }
 
 /* FOOTER */
 footer{
