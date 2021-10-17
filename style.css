@@ -157,16 +157,17 @@ footer{
     color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 300px) {
     nav ul{
     display: flex;
-    justify-content:end;
+    justify-items: center;
+    order: 2;
    }
  
    nav img{
-     display: flex;
-     justify-items: start;
- }
+    display: flex;
+    justify-items: start;
+}
  
  .content {
     flex-direction: column;
@@ -175,7 +176,7 @@ footer{
 .content__text {
     order: 1;
   }
-
+s
 .container__img {
     order: 2;
   }
