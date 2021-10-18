@@ -225,9 +225,27 @@ nav section p{
 
 /* FOOTER */
 footer{
-   height: 10ch;
-   background-color: black;
-   color: white;
+    display: flex;
+    text-align: center;
+    height: 130px;
+    background-color: black;
+    color: white;
+}
+
+.footer_copyright{
+    flex: 1;
+}
+
+.footer_socialfacebook{
+    display: flex;
+}
+
+.footer_socialtwitter{
+    display: flex;
+}
+
+footer img{
+
 }
 
 /* FLEX */
@@ -261,11 +279,12 @@ footer{
 
     .services{
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .cardone{
         order: 1;
-        justify-content: space-between;
+        
     }
 
     .cardtwo{
@@ -274,5 +293,26 @@ footer{
 
     .cardthree{
         order: 3;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    .footer_copyright{
+        order: 3;
+    }
+
+    .footer_socialfacebook{
+        order: 1;
+        width: 10px;
+        height: 5px;
+    }
+
+    .footer_socialtwitter{
+        order: 2;
+        width: 10px;
+        height: 5px;
     }
 }
